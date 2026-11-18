@@ -10,10 +10,12 @@ import { useNow } from '@/hooks/use-now';
 import { useTheme } from '@/hooks/use-theme';
 import { computeStreak, useProgress } from '@/state/progress';
 import { formatInterval, State } from '@/state/srs';
+import { useThemePref } from '@/state/theme';
 
 export default function TodayScreen() {
   const c = useTheme();
   const { ready, cards, log, settings, buildQueue } = useProgress();
+  const { scheme, setPref: setThemePref } = useThemePref();
   // Refreshed whenever the tab regains focus, so due counts stay current.
   const now = useNow();
 
@@ -43,6 +45,14 @@ export default function TodayScreen() {
           <T variant="label">{now.toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' })}</T>
           <T variant="title">Today</T>
         </View>
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={scheme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+          onPress={() => setThemePref(scheme === 'dark' ? 'light' : 'dark')}
+          hitSlop={8}
+          style={({ pressed }) => [styles.themeBtn, { backgroundColor: c.surfaceAlt, opacity: pressed ? 0.7 : 1 }]}>
+          <Ionicons name={scheme === 'dark' ? 'sunny' : 'moon'} size={18} color={c.text} />
+        </Pressable>
         <View style={[styles.streak, { backgroundColor: c.surfaceAlt }]} accessibilityLabel={`${streak} day streak`}>
           <Ionicons name="flame" size={18} color={streak > 0 ? c.hard : c.textSecondary} />
           <T variant="body" style={{ fontWeight: '700' }}>
@@ -128,6 +138,14 @@ function Stat({ value, label, color }: { value: number; label: string; color: st
 const styles = StyleSheet.create({
   center: { flex: 1, alignItems: 'center', justifyContent: 'center' },
   top: { flexDirection: 'row', alignItems: 'flex-end', gap: Spacing.md },
+  themeBtn: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 4,
+  },
   streak: {
     flexDirection: 'row',
     alignItems: 'center',

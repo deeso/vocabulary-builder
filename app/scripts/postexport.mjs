@@ -53,6 +53,9 @@ const head = [
   `<meta name="apple-mobile-web-app-capable" content="yes" />`,
   `<meta name="apple-mobile-web-app-title" content="${manifest.short_name}" />`,
   `<meta name="apple-mobile-web-app-status-bar-style" content="default" />`,
+  `<meta name="color-scheme" content="light dark" />`,
+  // Apply a saved Light/Dark choice before first paint (key must match THEME_KEY in src/state/theme.tsx).
+  `<script>try{var t=localStorage.getItem('vocab-builder/theme');if(t==='light'||t==='dark'){document.documentElement.dataset.theme=t;document.documentElement.style.colorScheme=t;}}catch(e){}</script>`,
 ].join('\n    ');
 
 html = html

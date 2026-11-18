@@ -1,4 +1,5 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
+import { ComponentProps } from 'react';
 import { Alert, Platform, Pressable, StyleSheet, Switch, View } from 'react-native';
 
 import { Button, Card, Screen, Section, T, webSwitchProps } from '@/components/ui';
@@ -8,12 +9,20 @@ import { useNow } from '@/hooks/use-now';
 import { useTheme } from '@/hooks/use-theme';
 import { dayKey, useProgress } from '@/state/progress';
 import { isLearning, Rating, State } from '@/state/srs';
+import { ThemePref, useThemePref } from '@/state/theme';
+
+const THEME_OPTIONS: { key: ThemePref; label: string; icon: ComponentProps<typeof Ionicons>['name'] }[] = [
+  { key: 'system', label: 'System', icon: 'phone-portrait-outline' },
+  { key: 'light', label: 'Light', icon: 'sunny-outline' },
+  { key: 'dark', label: 'Dark', icon: 'moon-outline' },
+];
 
 const NEW_PER_DAY_OPTIONS = [5, 10, 15, 20, 30];
 
 export default function ProgressScreen() {
   const c = useTheme();
   const { cards, log, settings, updateSettings, resetAll } = useProgress();
+  const { pref: themePref, setPref: setThemePref } = useThemePref();
   const now = useNow();
 
   const all = Object.entries(cards);
@@ -119,6 +128,31 @@ export default function ProgressScreen() {
         </Card>
       </Section>
 
+      <Section title="Appearance">
+        <Card>
+          <View style={styles.segment} accessibilityRole="radiogroup">
+            {THEME_OPTIONS.map((o) => {
+              const active = themePref === o.key;
+              return (
+                <Pressable
+                  key={o.key}
+                  accessibilityRole="radio"
+                  accessibilityState={{ selected: active }}
+                  accessibilityLabel={`${o.label} theme`}
+                  onPress={() => setThemePref(o.key)}
+                  style={[styles.segItem, styles.themeItem, { backgroundColor: active ? c.accent : c.surfaceAlt }]}>
+                  <Ionicons name={o.icon} size={18} color={active ? c.accentText : c.text} />
+                  <T variant="body" style={{ color: active ? c.accentText : c.text, fontWeight: '600' }}>
+                    {o.label}
+                  </T>
+                </Pressable>
+              );
+            })}
+          </View>
+          <T variant="small">System follows your device’s light or dark setting.</T>
+        </Card>
+      </Section>
+
       <Section title="Study settings">
         <Card style={{ gap: Spacing.lg }}>
           <View style={{ gap: Spacing.sm }}>
@@ -202,6 +236,7 @@ const styles = StyleSheet.create({
   fill: { height: '100%', borderRadius: 4 },
   segment: { flexDirection: 'row', gap: Spacing.sm },
   segItem: { flex: 1, alignItems: 'center', paddingVertical: 10, borderRadius: Radius.sm },
+  themeItem: { flexDirection: 'row', justifyContent: 'center', gap: 6 },
   switchRow: { flexDirection: 'row', alignItems: 'center', gap: Spacing.md, paddingVertical: 6 },
   langDot: { width: 10, height: 10, borderRadius: 5 },
   note: { flexDirection: 'row', gap: Spacing.sm, alignItems: 'flex-start', paddingHorizontal: Spacing.xs },

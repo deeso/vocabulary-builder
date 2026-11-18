@@ -11,11 +11,21 @@ body {
   -webkit-tap-highlight-color: transparent;
   /* Match the app background before JS paints, so there's no white flash. */
   background-color: #f6f3ee;
+  color-scheme: light;
 }
 
+/* data-theme is set from the saved preference by an inline script in index.html,
+   then kept in sync by ThemePrefProvider. Without it, follow the system. */
 @media (prefers-color-scheme: dark) {
-  html,
-  body {
+  html:not([data-theme='light']),
+  html:not([data-theme='light']) body {
     background-color: #121212;
+    color-scheme: dark;
   }
+}
+
+html[data-theme='dark'],
+html[data-theme='dark'] body {
+  background-color: #121212;
+  color-scheme: dark;
 }

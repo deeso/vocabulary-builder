@@ -6,12 +6,21 @@ import { Colors } from '@/constants/theme';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { ChallengeProvider } from '@/state/challenge';
 import { ProgressProvider } from '@/state/progress';
+import { ThemePrefProvider } from '@/state/theme';
 
 // Deep links (e.g. a shared /word/... URL) still get the tabs underneath, so Back works.
 export const unstable_settings = { initialRouteName: '(tabs)' };
 
 export default function RootLayout() {
-  const scheme = useColorScheme() === 'dark' ? 'dark' : 'light';
+  return (
+    <ThemePrefProvider>
+      <ThemedApp />
+    </ThemePrefProvider>
+  );
+}
+
+function ThemedApp() {
+  const scheme = useColorScheme();
   const c = Colors[scheme];
   const base = scheme === 'dark' ? DarkTheme : DefaultTheme;
   const navTheme = {
