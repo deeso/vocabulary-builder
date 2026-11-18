@@ -1,0 +1,30 @@
+{
+  "name": "Vocabulary Builder",
+  "short_name": "Vocab",
+  "description": "Learn words across English, Spanish, French, German and Italian — with etymology, fun facts and spaced repetition.",
+  "id": "/vocabulary-builder/",
+  "start_url": "/vocabulary-builder/",
+  "scope": "/vocabulary-builder/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F6F3EE",
+  "theme_color": "#3346C8",
+  "icons": [
+    {
+      "src": "/vocabulary-builder/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/vocabulary-builder/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/vocabulary-builder/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

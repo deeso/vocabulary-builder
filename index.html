@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    
+    <title>Vocabulary Builder</title>
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  
+<link rel="icon" href="/vocabulary-builder/favicon.ico"/><link rel="preload" href="/vocabulary-builder/_expo/static/css/global-47f1223ebca951057c710452e67f2fa8.css" as="style">
+<link rel="stylesheet" href="/vocabulary-builder/_expo/static/css/global-47f1223ebca951057c710452e67f2fa8.css">    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#3346C8" />
+    <meta name="description" content="Learn words across English, Spanish, French, German and Italian — with etymology, fun facts and spaced repetition." />
+    <link rel="manifest" href="/vocabulary-builder/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/vocabulary-builder/icons/apple-touch-icon.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Vocab" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="color-scheme" content="light dark" />
+    <script>try{var t=localStorage.getItem('vocab-builder/theme');if(t==='light'||t==='dark'){document.documentElement.dataset.theme=t;document.documentElement.style.colorScheme=t;}}catch(e){}</script>
+  </head>
+
+  <body>
+    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <!-- The root element for your Expo app. -->
+    <div id="root"></div>
+  <script src="/vocabulary-builder/_expo/static/js/web/__expo-metro-runtime-ed4c1cfa6193d76fc294130e42bd1916.js" defer></script><script src="/vocabulary-builder/_expo/static/js/web/__common-c42fd11b59d30a2b92409c6627477256.js" defer></script><script src="/vocabulary-builder/_expo/static/js/web/entry-0a71decc36f826424d1afe1fa259cdd6.js" defer></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    var hadController = !!navigator.serviceWorker.controller;
+    var reloading = false;
+    navigator.serviceWorker.addEventListener('controllerchange', function () {
+      if (hadController && !reloading) { reloading = true; location.reload(); }
+    });
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('/vocabulary-builder/sw.js', { scope: '/vocabulary-builder/' }).then(function (reg) {
+        // Installed PWAs can stay open for days: look for a new version when brought back.
+        document.addEventListener('visibilitychange', function () {
+          if (document.visibilityState === 'visible') reg.update().catch(function () {});
+        });
+      }).catch(function (e) {
+        console.warn('Service worker registration failed', e);
+      });
+    });
+  }
+</script>
+</body>
+</html>
