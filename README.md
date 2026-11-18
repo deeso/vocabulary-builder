@@ -60,11 +60,23 @@ This produces `pipeline/build/content.db`. Inspect it with any SQLite viewer
 **Live (installable PWA):** https://deeso.github.io/vocabulary-builder/. Open it on your phone and
 choose *Add to Home Screen*. It works offline after the first visit.
 
+**Run it locally in your browser** (Node.js 24+):
+
+```bash
+./start-local.sh
+```
+
+That installs dependencies the first time, builds, and serves the app at http://localhost:4173/.
+Add `--lan` to open it from phones or tablets on the same Wi-Fi. The script prints the address.
+On localhost the app can also be installed from the browser and works offline.
+
+For development:
+
 ```bash
 cd app
 npm install
-npm run web          # dev server
-npm run build:web    # production PWA build → app/dist
+npm run web          # dev server with hot reload
+npm run build:web    # production PWA build for GitHub Pages → app/dist
 ```
 
 Every push to `main` is deployed to GitHub Pages by `.github/workflows/deploy.yml`.

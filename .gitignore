@@ -3,6 +3,7 @@ node_modules/
 .expo/
 .expo-shared/
 dist/
+dist-local/
 web-build/
 *.log
 npm-debug.*

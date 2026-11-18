@@ -49,7 +49,9 @@
     "icons": "node scripts/make-icons.mjs",
     "typecheck": "tsc --noEmit",
     "lint": "expo lint",
-    "deploy:pages": "bash scripts/deploy-pages.sh"
+    "deploy:pages": "bash scripts/deploy-pages.sh",
+    "local": "node scripts/local.mjs",
+    "local:lan": "node scripts/local.mjs --lan"
   },
   "private": true,
   "engines": {

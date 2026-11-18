@@ -13,7 +13,8 @@ offline-capable PWA on GitHub Pages, and the same code can be built for iOS/Andr
   Spanish, French, German and Italian.
 - **Words**: a browsable dictionary with etymology, fun facts and cross-language links
   (cognates, borrowings, false friends…).
-- **Progress**: review history, per-language progress, study settings.
+- **Progress**: review history, per-language progress, study settings and Appearance
+  (System / Light / Dark). Today also has a one-tap light/dark toggle.
 - Pronunciation through the device's speech engine (`expo-speech`). Progress is stored
   locally on the device (AsyncStorage → `localStorage` on web).
 
@@ -21,6 +22,8 @@ offline-capable PWA on GitHub Pages, and the same code can be built for iOS/Andr
 
 ```bash
 npm install
+npm run local          # build + serve locally at http://localhost:4173/ (dist-local/)
+npm run local:lan      # same, also reachable from other devices on your network
 npm run web            # dev server (hot reload)
 npm run build:web      # validate content → export → add PWA manifest + service worker
 npm run serve:web      # serve dist/ like GitHub Pages: http://localhost:4173/vocabulary-builder/
@@ -28,6 +31,15 @@ npm run check:content  # validate src/content/*.json
 npm run typecheck && npm run lint
 npm run icons          # regenerate icons from scripts/make-icons.mjs
 ```
+
+## Local web app
+
+`npm run local` (or `./start-local.sh` from the repo root) builds into `dist-local/` with the
+site root as base path, so the app lives at `/` instead of `/vocabulary-builder/`. It only
+rebuilds when sources change. Flags: `--lan` (share on your network), `--rebuild`, `--port N`.
+By default it listens on 127.0.0.1 only. With `--lan`, anyone on your network can open it.
+Offline mode and "Install app" need a secure origin, so they work on `localhost` but not over
+plain-http LAN addresses. Progress is stored per browser and per address.
 
 ## Content
 
