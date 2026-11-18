@@ -1,0 +1,12 @@
+{
+  "folders": [
+    { "name": "root", "path": "." },
+    { "name": "pipeline", "path": "pipeline" },
+    { "name": "app", "path": "app" }
+  ],
+  "settings": {
+    "files.associations": {
+      "*.sql": "sql"
+    }
+  }
+}

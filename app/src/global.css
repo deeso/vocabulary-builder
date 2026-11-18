@@ -1,0 +1,21 @@
+:root {
+  --font-display: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
+}
+
+html,
+body {
+  overscroll-behavior-y: none;
+  -webkit-tap-highlight-color: transparent;
+  /* Match the app background before JS paints, so there's no white flash. */
+  background-color: #f6f3ee;
+}
+
+@media (prefers-color-scheme: dark) {
+  html,
+  body {
+    background-color: #121212;
+  }
+}

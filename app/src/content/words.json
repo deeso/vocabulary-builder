@@ -1,0 +1,694 @@
+[
+  {
+    "id": "en-serendipity", "lang": "en", "term": "serendipity", "ipa": "/ˌsɛɹ.ənˈdɪp.ɪ.ti/", "pos": "noun", "level": 2,
+    "gloss": "a happy accident",
+    "definition": "The occurrence of fortunate discoveries by chance, especially while looking for something else.",
+    "example": "Finding my favourite bookshop was pure serendipity — I was only looking for shelter from the rain.",
+    "etymology": "Coined by the English writer Horace Walpole in 1754, after a Persian fairy tale, \"The Three Princes of Serendip\", whose heroes kept making discoveries they were not seeking. Serendip is an old name for Sri Lanka.",
+    "fact": "Walpole invented the word in a letter to his friend Horace Mann. It stayed obscure for nearly two centuries before becoming a favourite of scientists describing lucky discoveries.",
+    "related": []
+  },
+  {
+    "id": "en-salary", "lang": "en", "term": "salary", "ipa": "/ˈsæl.ə.ɹi/", "pos": "noun", "level": 1,
+    "gloss": "fixed regular pay",
+    "definition": "A fixed amount of money paid to an employee, usually expressed per year and paid monthly.",
+    "example": "She took a lower salary in exchange for a four-day week.",
+    "etymology": "From Latin salarium, derived from sal, \"salt\". The original sense was probably an allowance connected with salt, perhaps money for buying it.",
+    "fact": "The popular story that Roman soldiers were paid in salt has no solid ancient evidence behind it — but the link between salarium and sal is real.",
+    "related": [
+      { "id": "es-salario", "term": "salario", "lang": "es", "kind": "cognate" },
+      { "term": "salaire", "lang": "fr", "kind": "cognate" },
+      { "term": "sal", "lang": "la", "kind": "root", "note": "salt" }
+    ]
+  },
+  {
+    "id": "en-muscle", "lang": "en", "term": "muscle", "ipa": "/ˈmʌs.əl/", "pos": "noun", "level": 1,
+    "gloss": "tissue that moves the body",
+    "definition": "A band of fibrous tissue in the body that contracts to produce movement.",
+    "example": "Climbing works muscles you didn't know you had.",
+    "etymology": "From Latin musculus, \"little mouse\", a diminutive of mus. A flexing muscle was thought to look like a mouse moving under the skin.",
+    "fact": "Greek made the same comparison: μῦς (mŷs) means both \"mouse\" and \"muscle\". The shellfish \"mussel\" comes from the same Latin word.",
+    "related": [
+      { "term": "mussel", "lang": "en", "kind": "root" },
+      { "term": "músculo", "lang": "es", "kind": "cognate" },
+      { "term": "Muskel", "lang": "de", "kind": "cognate" },
+      { "term": "mus", "lang": "la", "kind": "root", "note": "mouse" }
+    ]
+  },
+  {
+    "id": "en-disaster", "lang": "en", "term": "disaster", "ipa": "/dɪˈzæs.tɚ/", "pos": "noun", "level": 1,
+    "gloss": "a sudden calamity",
+    "definition": "A sudden event, such as an accident or natural catastrophe, that causes great damage or loss.",
+    "example": "The first rehearsal was a disaster, but opening night went perfectly.",
+    "etymology": "Via French désastre from Italian disastro, from dis- (expressing something bad) + astro, \"star\". A disaster was literally an ill-starred event, blamed on an unfavourable position of the planets.",
+    "fact": "Shakespeare plays on the astrological sense in King Lear, where Edmund mocks people who blame their disasters on the sun, the moon and the stars.",
+    "related": [
+      { "id": "it-disastro", "term": "disastro", "lang": "it", "kind": "borrowing" },
+      { "term": "désastre", "lang": "fr", "kind": "cognate" },
+      { "term": "astronomy", "lang": "en", "kind": "root" }
+    ]
+  },
+  {
+    "id": "en-companion", "lang": "en", "term": "companion", "ipa": "/kəmˈpæn.jən/", "pos": "noun", "level": 1,
+    "gloss": "someone you spend time with",
+    "definition": "A person or animal with whom one spends a lot of time or with whom one travels.",
+    "example": "The dog was his constant companion on long walks.",
+    "etymology": "From Old French compaignon, from Late Latin companio, literally \"one who shares bread with another\": com- (\"with\") + panis (\"bread\"). It may be a loan-translation of a Germanic word with the same structure.",
+    "fact": "\"Company\" shares the same bread-sharing origin, so every company is, etymologically, a group of people who eat together.",
+    "related": [
+      { "id": "es-companero", "term": "compañero", "lang": "es", "kind": "cognate" },
+      { "id": "fr-copain", "term": "copain", "lang": "fr", "kind": "cognate" },
+      { "id": "it-compagno", "term": "compagno", "lang": "it", "kind": "cognate" },
+      { "term": "panis", "lang": "la", "kind": "root", "note": "bread" }
+    ]
+  },
+  {
+    "id": "en-quarantine", "lang": "en", "term": "quarantine", "ipa": "/ˈkwɔɹ.ən.tiːn/", "pos": "noun", "level": 2,
+    "gloss": "isolation to stop disease",
+    "definition": "A period of isolation imposed on people, animals or goods that may carry an infectious disease.",
+    "example": "The new arrivals spent two weeks in quarantine.",
+    "etymology": "From Italian (Venetian) quaranta giorni, \"forty days\" — the period ships arriving from plague-stricken ports had to wait before passengers and cargo could land.",
+    "fact": "The first recorded rule of this kind, from Ragusa (today's Dubrovnik) in 1377, required only thirty days; forty became the standard later.",
+    "related": [
+      { "id": "it-quaranta", "term": "quaranta", "lang": "it", "kind": "root" },
+      { "id": "fr-quarantaine", "term": "quarantaine", "lang": "fr", "kind": "cognate" }
+    ]
+  },
+  {
+    "id": "en-sabotage", "lang": "en", "term": "sabotage", "ipa": "/ˈsæb.ə.tɑːʒ/", "pos": "noun / verb", "level": 2,
+    "gloss": "deliberate destruction",
+    "definition": "The deliberate destruction, damage or obstruction of something, especially for political or military advantage.",
+    "example": "Investigators ruled out sabotage and blamed a faulty valve.",
+    "etymology": "From French saboter, \"to bungle, botch\" (originally \"to clatter, knock about\"), from sabot, a wooden clog.",
+    "fact": "The tale that striking workers threw their clogs into machines is a colourful folk etymology. The word more likely comes from the idea of working clumsily, as if stomping about in clogs.",
+    "related": [
+      { "id": "fr-sabot", "term": "sabot", "lang": "fr", "kind": "root" }
+    ]
+  },
+  {
+    "id": "en-nostalgia", "lang": "en", "term": "nostalgia", "ipa": "/nəˈstæl.dʒə/", "pos": "noun", "level": 2,
+    "gloss": "wistful longing for the past",
+    "definition": "A sentimental longing or wistful affection for a period in the past.",
+    "example": "The smell of chalk filled him with nostalgia for his school days.",
+    "etymology": "Coined in 1688 by the Swiss medical student Johannes Hofer from Greek nóstos (\"homecoming\") + álgos (\"pain\"), as a learned translation of the Swiss German word Heimweh, \"homesickness\".",
+    "fact": "Nostalgia began as a medical diagnosis — a supposedly dangerous illness of Swiss mercenaries serving far from home. Its sense of longing for a past time rather than a place came much later.",
+    "related": [
+      { "id": "de-heimweh", "term": "Heimweh", "lang": "de", "kind": "calque", "note": "nostalgia was coined to translate it" },
+      { "term": "nóstos", "lang": "grc", "kind": "root", "note": "homecoming" }
+    ]
+  },
+  {
+    "id": "en-clue", "lang": "en", "term": "clue", "ipa": "/kluː/", "pos": "noun", "level": 1,
+    "gloss": "a hint toward a solution",
+    "definition": "A piece of evidence or information that helps solve a problem or mystery.",
+    "example": "The muddy footprint was the first real clue.",
+    "etymology": "A respelling of clew, \"a ball of thread or yarn\", from Old English cliwen.",
+    "fact": "The sense comes from Greek myth: Theseus escaped the Minotaur's labyrinth by following a ball of thread (a clew) given to him by Ariadne. Following a clue still means following the thread to a way out.",
+    "related": []
+  },
+  {
+    "id": "en-robot", "lang": "en", "term": "robot", "ipa": "/ˈɹoʊ.bɑːt/", "pos": "noun", "level": 1,
+    "gloss": "a programmable machine",
+    "definition": "A machine capable of carrying out a complex series of actions automatically.",
+    "example": "A robot now does the welding on that line.",
+    "etymology": "From Czech robot, coined from robota, \"forced labour, drudgery\", for Karel Čapek's 1920 play R.U.R. (Rossum's Universal Robots).",
+    "fact": "Karel Čapek credited his brother, the painter Josef Čapek, with suggesting the word. Karel's own first idea was \"labori\".",
+    "related": [
+      { "term": "Roboter", "lang": "de", "kind": "borrowing" },
+      { "term": "robota", "lang": "cs", "kind": "root", "note": "forced labour" }
+    ]
+  },
+  {
+    "id": "en-avocado", "lang": "en", "term": "avocado", "ipa": "/ˌæv.əˈkɑː.doʊ/", "pos": "noun", "level": 1,
+    "gloss": "a creamy green fruit",
+    "definition": "A pear-shaped fruit with leathery skin, smooth buttery flesh and a large stone.",
+    "example": "Mash the avocado with lime and a pinch of salt.",
+    "etymology": "From Spanish avocado, an alteration of aguacate (from Nahuatl āhuacatl) under the influence of avocado, an old Spanish form of abogado, \"lawyer\".",
+    "fact": "French went the same way: avocat means both \"avocado\" and \"lawyer\".",
+    "related": [
+      { "id": "es-aguacate", "term": "aguacate", "lang": "es", "kind": "borrowing" },
+      { "id": "fr-avocat", "term": "avocat", "lang": "fr", "kind": "cognate" },
+      { "term": "guacamole", "lang": "en", "kind": "root" }
+    ]
+  },
+  {
+    "id": "en-kindergarten", "lang": "en", "term": "kindergarten", "ipa": "/ˈkɪn.dɚˌɡɑːɹ.tən/", "pos": "noun", "level": 1,
+    "gloss": "school for young children",
+    "definition": "A school or class that prepares children, usually aged four to six, for primary school.",
+    "example": "Our youngest starts kindergarten in September.",
+    "etymology": "Borrowed from German Kindergarten, \"children's garden\", the name the educator Friedrich Fröbel gave in 1840 to his school in Bad Blankenburg.",
+    "fact": "Fröbel imagined children as plants that grow best when tended like a garden. He also designed educational toys called \"Fröbel gifts\".",
+    "related": [
+      { "id": "de-kindergarten", "term": "Kindergarten", "lang": "de", "kind": "borrowing" }
+    ]
+  },
+  {
+    "id": "en-alcohol", "lang": "en", "term": "alcohol", "ipa": "/ˈæl.kə.hɔːl/", "pos": "noun", "level": 1,
+    "gloss": "intoxicating spirit",
+    "definition": "A colourless volatile liquid (ethanol) produced by fermentation; also drinks containing it.",
+    "example": "The dish is cooked long enough for the alcohol to evaporate.",
+    "etymology": "Via Medieval Latin from Arabic al-kuḥl, \"the kohl\" — a fine powder used as eye make-up. Alchemists extended it to any finely refined substance, then to the \"essence\" or spirit obtained by distillation.",
+    "fact": "So alcohol is, in a roundabout way, the same word as kohl eyeliner.",
+    "related": [
+      { "term": "kohl", "lang": "en", "kind": "root" },
+      { "term": "alcohol", "lang": "es", "kind": "cognate" },
+      { "term": "alcool", "lang": "fr", "kind": "cognate" },
+      { "term": "Alkohol", "lang": "de", "kind": "cognate" }
+    ]
+  },
+  {
+    "id": "en-melancholy", "lang": "en", "term": "melancholy", "ipa": "/ˈmɛl.ən.kɑː.li/", "pos": "noun / adjective", "level": 2,
+    "gloss": "pensive sadness",
+    "definition": "A deep, long-lasting, often pensive sadness with no obvious cause.",
+    "example": "There was a gentle melancholy to the empty seaside town in winter.",
+    "etymology": "From Greek melankholía, \"black bile\": mélas (\"black\") + kholḗ (\"bile\").",
+    "fact": "Ancient and medieval medicine held that health depended on four humours — blood, phlegm, yellow bile and black bile. Too much black bile was thought to cause gloom.",
+    "related": [
+      { "term": "melancolía", "lang": "es", "kind": "cognate" },
+      { "term": "mélancolie", "lang": "fr", "kind": "cognate" },
+      { "term": "Melancholie", "lang": "de", "kind": "cognate" }
+    ]
+  },
+  {
+    "id": "en-ostracize", "lang": "en", "term": "ostracize", "ipa": "/ˈɑː.stɹə.saɪz/", "pos": "verb", "level": 3,
+    "gloss": "to exclude from a group",
+    "definition": "To exclude someone from a society or group.",
+    "example": "He was ostracized by colleagues after reporting the fraud.",
+    "etymology": "From Greek ostrakízein, from óstrakon, \"potsherd\" — a broken piece of pottery.",
+    "fact": "In 5th-century BC Athens, citizens could vote to exile a politician for ten years by scratching his name on a potsherd. Thousands of these ballots have been dug up by archaeologists.",
+    "related": [
+      { "term": "óstrakon", "lang": "grc", "kind": "root", "note": "potsherd" },
+      { "term": "oyster", "lang": "en", "kind": "related", "note": "from the related Greek óstreon" }
+    ]
+  },
+  {
+    "id": "en-sincere", "lang": "en", "term": "sincere", "ipa": "/sɪnˈsɪɹ/", "pos": "adjective", "level": 1,
+    "gloss": "genuine, honest",
+    "definition": "Free from pretence or deceit; proceeding from genuine feelings.",
+    "example": "Please accept my sincere apologies.",
+    "etymology": "From Latin sincerus, \"clean, pure, sound\", of uncertain further origin.",
+    "fact": "You may hear that sincere comes from sine cera, \"without wax\", supposedly praising sculptures that had no cracks filled with wax. It's a myth — a popular folk etymology with no ancient support.",
+    "related": [
+      { "term": "sincero", "lang": "es", "kind": "cognate" },
+      { "term": "sincère", "lang": "fr", "kind": "cognate" }
+    ]
+  },
+  {
+    "id": "en-trivia", "lang": "en", "term": "trivia", "ipa": "/ˈtɹɪv.i.ə/", "pos": "noun", "level": 2,
+    "gloss": "unimportant facts",
+    "definition": "Details, considerations or pieces of information of little importance or value.",
+    "example": "Her head is full of film trivia.",
+    "etymology": "From Latin trivia, the plural of trivium, \"place where three roads meet\" (tri- + via). Things heard at a crossroads were common, everyday talk.",
+    "fact": "In medieval universities the trivium — grammar, logic and rhetoric — made up the three basic liberal arts, which is part of why \"trivial\" came to mean elementary or unimportant.",
+    "related": [
+      { "term": "via", "lang": "la", "kind": "root", "note": "road" },
+      { "term": "trivial", "lang": "en", "kind": "root" }
+    ]
+  },
+  {
+    "id": "en-hazard", "lang": "en", "term": "hazard", "ipa": "/ˈhæz.ɚd/", "pos": "noun", "level": 1,
+    "gloss": "a danger or risk",
+    "definition": "A danger or risk; something that could cause harm.",
+    "example": "Loose cables are a trip hazard.",
+    "etymology": "From Old French hasart, the name of a game of chance played with dice, possibly from Arabic az-zahr, \"the die\".",
+    "fact": "Hazard was a popular dice game in medieval England and an ancestor of the casino game craps.",
+    "related": [
+      { "term": "azar", "lang": "es", "kind": "cognate", "note": "chance" },
+      { "term": "hasard", "lang": "fr", "kind": "cognate", "note": "chance" }
+    ]
+  },
+  {
+    "id": "en-window", "lang": "en", "term": "window", "ipa": "/ˈwɪn.doʊ/", "pos": "noun", "level": 1,
+    "gloss": "opening in a wall for light",
+    "definition": "An opening in a wall or vehicle, usually fitted with glass, that lets in light or air.",
+    "example": "Leave the window open a crack.",
+    "etymology": "From Old Norse vindauga, literally \"wind-eye\": vindr (\"wind\") + auga (\"eye\").",
+    "fact": "Before the Viking-age borrowing took over, Old English used eagþyrel, \"eye-hole\". Spanish ventana is also built on a word for wind, Latin ventus.",
+    "related": [
+      { "id": "es-ventana", "term": "ventana", "lang": "es", "kind": "related", "note": "also named after the wind" },
+      { "id": "de-fenster", "term": "Fenster", "lang": "de", "kind": "related", "note": "German translation" },
+      { "term": "vindauga", "lang": "non", "kind": "root", "note": "wind-eye" }
+    ]
+  },
+  {
+    "id": "en-defenestrate", "lang": "en", "term": "defenestrate", "ipa": "/diːˈfɛn.ɪ.stɹeɪt/", "pos": "verb", "level": 3,
+    "gloss": "to throw out of a window",
+    "definition": "To throw someone or something out of a window; informally, to remove someone from power.",
+    "example": "Frustrated, she threatened to defenestrate the printer.",
+    "etymology": "From Latin de- (\"down from\") + fenestra (\"window\").",
+    "fact": "The word is closely tied to Prague: in 1618 Protestant nobles threw two Catholic regents and their secretary out of a castle window. All three survived, and the event helped trigger the Thirty Years' War.",
+    "related": [
+      { "id": "de-fenster", "term": "Fenster", "lang": "de", "kind": "root" },
+      { "term": "fenêtre", "lang": "fr", "kind": "root" },
+      { "term": "fenestra", "lang": "la", "kind": "root", "note": "window" }
+    ]
+  },
+  {
+    "id": "en-goodbye", "lang": "en", "term": "goodbye", "ipa": "/ɡʊdˈbaɪ/", "pos": "interjection", "level": 1,
+    "gloss": "a farewell",
+    "definition": "Used to express good wishes when parting.",
+    "example": "We said goodbye at the station.",
+    "etymology": "A contraction of \"God be with ye\", recorded from the late 16th century. \"God\" was later replaced by \"good\" on the model of greetings like \"good day\" and \"good night\".",
+    "fact": "Early spellings include \"godbwye\" and \"god buy'ye\". Many farewells work this way — Spanish adiós and French adieu both mean \"to God\".",
+    "related": [
+      { "term": "adiós", "lang": "es", "kind": "related", "note": "\"to God\"" },
+      { "term": "adieu", "lang": "fr", "kind": "related", "note": "\"to God\"" }
+    ]
+  },
+  {
+    "id": "en-bankrupt", "lang": "en", "term": "bankrupt", "ipa": "/ˈbæŋk.ɹʌpt/", "pos": "adjective", "level": 2,
+    "gloss": "unable to pay debts",
+    "definition": "Declared in law to be unable to pay outstanding debts.",
+    "example": "The airline went bankrupt after a single bad winter.",
+    "etymology": "From Italian banca rotta, \"broken bench\". Banca was the bench or counter at which a moneylender did business.",
+    "fact": "It is traditionally said that a failed banker's bench was broken to show he could no longer trade. Whether or not that was the custom, the Latin rupt- (\"broken\") was swapped in under the influence of words like \"rupture\".",
+    "related": [
+      { "id": "it-bancarotta", "term": "bancarotta", "lang": "it", "kind": "borrowing" },
+      { "term": "bank", "lang": "en", "kind": "root" }
+    ]
+  },
+
+  {
+    "id": "es-sobremesa", "lang": "es", "term": "sobremesa", "ipa": "/so.βɾeˈme.sa/", "pos": "noun (f.)", "level": 1,
+    "gloss": "lingering at the table after a meal",
+    "definition": "The time spent relaxing and talking around the table after a meal has finished.",
+    "example": "La sobremesa duró más que la comida.",
+    "exampleTranslation": "The after-lunch chat lasted longer than the meal itself.",
+    "etymology": "From sobre (\"over, on top of\") + mesa (\"table\").",
+    "fact": "There's no single-word English equivalent. In Spain a weekend sobremesa can easily last a couple of hours.",
+    "related": [
+      { "term": "mesa", "lang": "es", "kind": "root", "note": "table" }
+    ]
+  },
+  {
+    "id": "es-madrugada", "lang": "es", "term": "madrugada", "ipa": "/ma.ðɾuˈɣa.ða/", "pos": "noun (f.)", "level": 2,
+    "gloss": "the small hours",
+    "definition": "The early hours of the morning, from after midnight until dawn.",
+    "example": "Llegamos a casa a las tres de la madrugada.",
+    "exampleTranslation": "We got home at three in the morning.",
+    "etymology": "From madrugar (\"to get up early\"), from Vulgar Latin *maturicare, based on Latin maturus, \"early, timely, ripe\".",
+    "fact": "A popular proverb: \"A quien madruga, Dios le ayuda\" — God helps those who get up early, Spanish for \"the early bird catches the worm\".",
+    "related": [
+      { "term": "mature", "lang": "en", "kind": "root" },
+      { "term": "madrugar", "lang": "es", "kind": "root", "note": "to get up early" }
+    ]
+  },
+  {
+    "id": "es-embarazada", "lang": "es", "term": "embarazada", "ipa": "/em.ba.ɾaˈsa.ða/", "pos": "adjective (f.)", "level": 1,
+    "gloss": "pregnant",
+    "definition": "Pregnant. (Not \"embarrassed\" — that's avergonzada.)",
+    "example": "Mi hermana está embarazada de seis meses.",
+    "exampleTranslation": "My sister is six months pregnant.",
+    "etymology": "From embarazar, \"to hinder, encumber\", probably from Portuguese embaraçar, possibly from baraça, \"cord, noose\". English embarrass comes from the same source, via French.",
+    "fact": "One of the most famous false friends in Spanish: an English speaker who means \"I'm embarrassed\" but says \"estoy embarazada\" announces a pregnancy.",
+    "related": [
+      { "term": "embarrassed", "lang": "en", "kind": "false-friend" },
+      { "term": "avergonzado/a", "lang": "es", "kind": "related", "note": "what embarrassed actually is" }
+    ]
+  },
+  {
+    "id": "es-ojala", "lang": "es", "term": "ojalá", "ipa": "/o.xaˈla/", "pos": "interjection", "level": 1,
+    "gloss": "hopefully; if only",
+    "definition": "Expresses a strong wish: \"I hope so\", \"if only\". Followed by a verb in the subjunctive.",
+    "example": "¡Ojalá que no llueva mañana!",
+    "exampleTranslation": "Let's hope it doesn't rain tomorrow!",
+    "etymology": "From Andalusian Arabic law šá lláh, \"if God wills\", from the centuries of Arabic-speaking rule in medieval Iberia.",
+    "fact": "Spanish has thousands of words of Arabic origin — many beginning with al-, such as almohada (pillow), aceite (oil) and azúcar (sugar).",
+    "related": [
+      { "term": "inshallah", "lang": "ar", "kind": "root" },
+      { "term": "oxalá", "lang": "pt", "kind": "cognate" }
+    ]
+  },
+  {
+    "id": "es-aguacate", "lang": "es", "term": "aguacate", "ipa": "/a.ɣwaˈka.te/", "pos": "noun (m.)", "level": 1,
+    "gloss": "avocado",
+    "definition": "Avocado (the fruit or the tree). In parts of South America it's called palta.",
+    "example": "Corta el aguacate por la mitad y quítale el hueso.",
+    "exampleTranslation": "Cut the avocado in half and remove the stone.",
+    "etymology": "From Nahuatl āhuacatl. The Nahuatl word also meant \"testicle\", most likely because of the fruit's shape.",
+    "fact": "Guacamole comes from Nahuatl āhuacamōlli, \"avocado sauce\": āhuacatl + mōlli (\"sauce\") — the same mōlli as in mole.",
+    "related": [
+      { "id": "en-avocado", "term": "avocado", "lang": "en", "kind": "borrowing" },
+      { "term": "palta", "lang": "es", "kind": "related", "note": "South American name" }
+    ]
+  },
+  {
+    "id": "es-ventana", "lang": "es", "term": "ventana", "ipa": "/benˈta.na/", "pos": "noun (f.)", "level": 1,
+    "gloss": "window",
+    "definition": "Window.",
+    "example": "Abre la ventana, que hace calor.",
+    "exampleTranslation": "Open the window — it's hot.",
+    "etymology": "From Latin ventus (\"wind\") + the suffix -ana: an opening that lets the wind in.",
+    "fact": "English window is built on the same idea from a different language: Old Norse vindauga, \"wind-eye\".",
+    "related": [
+      { "id": "en-window", "term": "window", "lang": "en", "kind": "related" },
+      { "term": "vent", "lang": "en", "kind": "root" },
+      { "term": "viento", "lang": "es", "kind": "root", "note": "wind" }
+    ]
+  },
+  {
+    "id": "es-companero", "lang": "es", "term": "compañero", "ipa": "/kom.paˈɲe.ɾo/", "pos": "noun (m.)", "level": 1,
+    "gloss": "companion; classmate; partner",
+    "definition": "Companion, partner or colleague; compañero de clase is a classmate and compañero de piso a flatmate.",
+    "example": "Mi compañero de piso cocina muy bien.",
+    "exampleTranslation": "My flatmate is a very good cook.",
+    "etymology": "From Vulgar Latin *companio, \"one who shares bread\": com- (\"with\") + panis (\"bread\").",
+    "fact": "Spanish pan (\"bread\") keeps the root visible.",
+    "related": [
+      { "id": "en-companion", "term": "companion", "lang": "en", "kind": "cognate" },
+      { "id": "it-compagno", "term": "compagno", "lang": "it", "kind": "cognate" },
+      { "term": "pan", "lang": "es", "kind": "root", "note": "bread" }
+    ]
+  },
+  {
+    "id": "es-salario", "lang": "es", "term": "salario", "ipa": "/saˈla.ɾjo/", "pos": "noun (m.)", "level": 1,
+    "gloss": "salary, wage",
+    "definition": "Salary or wage; salario mínimo is the minimum wage.",
+    "example": "Le subieron el salario en enero.",
+    "exampleTranslation": "They raised his salary in January.",
+    "etymology": "From Latin salarium, from sal, \"salt\".",
+    "fact": "Spanish still has sal for \"salt\", so the link is easier to see than in English.",
+    "related": [
+      { "id": "en-salary", "term": "salary", "lang": "en", "kind": "cognate" },
+      { "term": "sueldo", "lang": "es", "kind": "related", "note": "the everyday word for pay" }
+    ]
+  },
+  {
+    "id": "es-estrenar", "lang": "es", "term": "estrenar", "ipa": "/es.tɾeˈnaɾ/", "pos": "verb", "level": 2,
+    "gloss": "to use or wear for the first time",
+    "definition": "To use, wear or show something for the first time; also to premiere a film or play.",
+    "example": "Hoy estreno zapatos.",
+    "exampleTranslation": "I'm wearing new shoes for the first time today.",
+    "etymology": "From estrena, \"first use; gift\", from Latin strena, \"omen; a good-luck gift given at the New Year\".",
+    "fact": "English needs a whole phrase for this. The noun estreno means a film or play's premiere.",
+    "related": [
+      { "term": "étrennes", "lang": "fr", "kind": "cognate", "note": "New Year's gifts" },
+      { "term": "strena", "lang": "la", "kind": "root" }
+    ]
+  },
+
+  {
+    "id": "fr-avocat", "lang": "fr", "term": "avocat", "ipa": "/a.vɔ.ka/", "pos": "noun (m.)", "level": 1,
+    "gloss": "lawyer; avocado",
+    "definition": "1. Lawyer, barrister. 2. Avocado.",
+    "example": "Mon avocat adore les avocats.",
+    "exampleTranslation": "My lawyer loves avocados.",
+    "etymology": "The lawyer sense is from Latin advocatus, \"one called to help\". The fruit sense came from Spanish aguacate (Nahuatl āhuacatl), reshaped to match the existing word.",
+    "fact": "Two unrelated words collided into one. English advocate is the lawyer's cousin.",
+    "related": [
+      { "id": "en-avocado", "term": "avocado", "lang": "en", "kind": "cognate" },
+      { "id": "es-aguacate", "term": "aguacate", "lang": "es", "kind": "borrowing" },
+      { "term": "advocate", "lang": "en", "kind": "cognate" }
+    ]
+  },
+  {
+    "id": "fr-deja-vu", "lang": "fr", "term": "déjà vu", "ipa": "/de.ʒa vy/", "pos": "noun (m.)", "level": 2,
+    "gloss": "\"already seen\"",
+    "definition": "The uncanny feeling of having already experienced the present situation.",
+    "example": "J'ai une impression de déjà-vu.",
+    "exampleTranslation": "I have a feeling of déjà vu.",
+    "etymology": "Literally \"already seen\": déjà (\"already\") + vu (past participle of voir, \"to see\").",
+    "fact": "The French psychical researcher Émile Boirac is usually credited with popularizing the term in the late 19th and early 20th century.",
+    "related": [
+      { "term": "voir", "lang": "fr", "kind": "root", "note": "to see" },
+      { "term": "vision", "lang": "en", "kind": "root" }
+    ]
+  },
+  {
+    "id": "fr-flaner", "lang": "fr", "term": "flâner", "ipa": "/flɑ.ne/", "pos": "verb", "level": 2,
+    "gloss": "to stroll aimlessly",
+    "definition": "To wander or stroll without a goal, taking in the surroundings.",
+    "example": "Le dimanche, on aime flâner le long de la Seine.",
+    "exampleTranslation": "On Sundays we like to wander along the Seine.",
+    "etymology": "From Norman French flanner, probably from Old Norse flana, \"to wander aimlessly\".",
+    "fact": "The flâneur, an idle observer of city life, became a key figure in 19th-century Paris thanks to writers like Baudelaire.",
+    "related": [
+      { "term": "flâneur", "lang": "fr", "kind": "root", "note": "one who strolls" }
+    ]
+  },
+  {
+    "id": "fr-copain", "lang": "fr", "term": "copain", "ipa": "/kɔ.pɛ̃/", "pos": "noun (m.)", "level": 1,
+    "gloss": "pal, buddy; boyfriend",
+    "definition": "Friend, pal; mon copain can also mean \"my boyfriend\" (feminine: copine).",
+    "example": "Je pars en vacances avec des copains.",
+    "exampleTranslation": "I'm going on holiday with some friends.",
+    "etymology": "From Old French compain, the subject form of compagnon, from Late Latin companio, \"one who shares bread\".",
+    "fact": "Old French had separate subject and object forms of many nouns. Compain (subject) became copain, and compagnon (object) survived alongside it.",
+    "related": [
+      { "id": "en-companion", "term": "companion", "lang": "en", "kind": "cognate" },
+      { "term": "compagnon", "lang": "fr", "kind": "root" }
+    ]
+  },
+  {
+    "id": "fr-quarantaine", "lang": "fr", "term": "quarantaine", "ipa": "/ka.ʁɑ̃.tɛn/", "pos": "noun (f.)", "level": 2,
+    "gloss": "about forty; quarantine",
+    "definition": "1. About forty (une quarantaine de personnes). 2. Quarantine. 3. One's forties (il a la quarantaine).",
+    "example": "Une quarantaine de personnes sont venues.",
+    "exampleTranslation": "About forty people came.",
+    "etymology": "From quarante (\"forty\") + -aine, the suffix for approximate numbers (as in une dizaine, \"about ten\").",
+    "fact": "French still uses the everyday \"about forty\" sense, which shows where the medical meaning came from.",
+    "related": [
+      { "id": "en-quarantine", "term": "quarantine", "lang": "en", "kind": "cognate" },
+      { "id": "it-quaranta", "term": "quaranta", "lang": "it", "kind": "cognate" }
+    ]
+  },
+  {
+    "id": "fr-chandail", "lang": "fr", "term": "chandail", "ipa": "/ʃɑ̃.daj/", "pos": "noun (m.)", "level": 3,
+    "gloss": "sweater",
+    "definition": "A thick knitted sweater (more common in Quebec; in France, pull is more usual).",
+    "example": "Mets ton chandail, il fait froid.",
+    "exampleTranslation": "Put your sweater on, it's cold.",
+    "etymology": "Shortened from marchand d'ail, \"garlic seller\". The vendors at the Paris market of Les Halles wore this kind of woollen sweater in the late 19th century.",
+    "fact": "A rare word built from clipping the middle of a phrase: mar-chand d'ail → chandail.",
+    "related": [
+      { "term": "ail", "lang": "fr", "kind": "root", "note": "garlic" },
+      { "term": "pull", "lang": "fr", "kind": "related", "note": "the everyday word in France" }
+    ]
+  },
+  {
+    "id": "fr-sabot", "lang": "fr", "term": "sabot", "ipa": "/sa.bo/", "pos": "noun (m.)", "level": 2,
+    "gloss": "wooden clog; hoof",
+    "definition": "1. A wooden clog. 2. An animal's hoof. 3. A wheel clamp (sabot de Denver).",
+    "example": "Le cheval a perdu un fer à son sabot.",
+    "exampleTranslation": "The horse lost a shoe from its hoof.",
+    "etymology": "Of uncertain origin, probably a blend of Old French savate (\"old shoe\") and bot (\"boot\").",
+    "fact": "From sabot came saboter — and English sabotage.",
+    "related": [
+      { "id": "en-sabotage", "term": "sabotage", "lang": "en", "kind": "root" },
+      { "term": "saboter", "lang": "fr", "kind": "root" }
+    ]
+  },
+  {
+    "id": "fr-pamplemousse", "lang": "fr", "term": "pamplemousse", "ipa": "/pɑ̃.plə.mus/", "pos": "noun (m.)", "level": 2,
+    "gloss": "grapefruit",
+    "definition": "Grapefruit.",
+    "example": "Je prends un jus de pamplemousse, s'il vous plaît.",
+    "exampleTranslation": "A grapefruit juice, please.",
+    "etymology": "From Dutch pompelmoes. Its origin is debated; it's often explained as pompel (\"big, swollen\") + Portuguese limões (\"lemons\").",
+    "fact": "English pomelo — the large citrus fruit that is one of the grapefruit's parents — probably comes from the same Dutch word.",
+    "related": [
+      { "term": "pomelo", "lang": "en", "kind": "cognate" }
+    ]
+  },
+
+  {
+    "id": "de-kindergarten", "lang": "de", "term": "Kindergarten", "ipa": "/ˈkɪn.dɐˌɡaʁ.tn̩/", "pos": "noun (m.)", "level": 1,
+    "gloss": "kindergarten, nursery school",
+    "definition": "Nursery school for children before primary school, usually ages three to six.",
+    "example": "Die Kinder gehen morgens in den Kindergarten.",
+    "exampleTranslation": "The children go to kindergarten in the mornings.",
+    "etymology": "Kinder (\"children\") + Garten (\"garden\"). Named by Friedrich Fröbel in 1840.",
+    "fact": "German nouns are always capitalized, and their gender has to be learned: der Kindergarten is masculine because der Garten is.",
+    "related": [
+      { "id": "en-kindergarten", "term": "kindergarten", "lang": "en", "kind": "borrowing" },
+      { "term": "Kind", "lang": "de", "kind": "root", "note": "child" }
+    ]
+  },
+  {
+    "id": "de-schadenfreude", "lang": "de", "term": "Schadenfreude", "ipa": "/ˈʃaː.dn̩ˌfʁɔʏ̯.də/", "pos": "noun (f.)", "level": 2,
+    "gloss": "joy at another's misfortune",
+    "definition": "Pleasure derived from someone else's misfortune.",
+    "example": "Ein bisschen Schadenfreude war dabei, als er im Regen stand.",
+    "exampleTranslation": "There was a little Schadenfreude when he got caught in the rain.",
+    "etymology": "Schaden (\"harm, damage\") + Freude (\"joy\").",
+    "fact": "English borrowed the word in the 19th century. Greek had its own word for the feeling: epikhairekakía.",
+    "related": [
+      { "term": "Freude", "lang": "de", "kind": "root", "note": "joy" },
+      { "term": "schadenfreude", "lang": "en", "kind": "borrowing" }
+    ]
+  },
+  {
+    "id": "de-fernweh", "lang": "de", "term": "Fernweh", "ipa": "/ˈfɛʁn.veː/", "pos": "noun (n.)", "level": 2,
+    "gloss": "longing for faraway places",
+    "definition": "An ache to travel to distant places; the opposite of homesickness.",
+    "example": "Jedes Mal, wenn ich Flugzeuge sehe, bekomme ich Fernweh.",
+    "exampleTranslation": "Every time I see planes, I get the urge to travel.",
+    "etymology": "fern (\"far\") + Weh (\"ache, pain\"), modelled on Heimweh (\"homesickness\").",
+    "fact": "It is close to Wanderlust, but Wanderlust is the joy of roaming, while Fernweh is closer to an ache for somewhere you are not.",
+    "related": [
+      { "id": "de-heimweh", "term": "Heimweh", "lang": "de", "kind": "opposite" },
+      { "term": "Wanderlust", "lang": "de", "kind": "related" }
+    ]
+  },
+  {
+    "id": "de-heimweh", "lang": "de", "term": "Heimweh", "ipa": "/ˈhaɪ̯m.veː/", "pos": "noun (n.)", "level": 1,
+    "gloss": "homesickness",
+    "definition": "Homesickness; a longing for home.",
+    "example": "In der ersten Woche hatte sie schlimmes Heimweh.",
+    "exampleTranslation": "She was terribly homesick the first week.",
+    "etymology": "Heim (\"home\") + Weh (\"ache, pain\"). Originally a Swiss German word.",
+    "fact": "When Johannes Hofer wanted a learned medical term for Heimweh in 1688, he translated it into Greek and invented nostalgia.",
+    "related": [
+      { "id": "en-nostalgia", "term": "nostalgia", "lang": "en", "kind": "calque" },
+      { "id": "de-fernweh", "term": "Fernweh", "lang": "de", "kind": "opposite" },
+      { "term": "home", "lang": "en", "kind": "cognate", "note": "Heim" }
+    ]
+  },
+  {
+    "id": "de-handschuh", "lang": "de", "term": "Handschuh", "ipa": "/ˈhant.ʃuː/", "pos": "noun (m.)", "level": 1,
+    "gloss": "glove",
+    "definition": "Glove.",
+    "example": "Ich habe einen Handschuh im Bus verloren.",
+    "exampleTranslation": "I lost a glove on the bus.",
+    "etymology": "Literally \"hand-shoe\": Hand + Schuh (\"shoe\").",
+    "fact": "German loves literal compounds: a Stinktier (\"stink animal\") is a skunk and a Schildkröte (\"shield toad\") is a turtle.",
+    "related": [
+      { "term": "handschoen", "lang": "nl", "kind": "cognate" },
+      { "term": "shoe", "lang": "en", "kind": "cognate", "note": "Schuh" }
+    ]
+  },
+  {
+    "id": "de-fenster", "lang": "de", "term": "Fenster", "ipa": "/ˈfɛns.tɐ/", "pos": "noun (n.)", "level": 1,
+    "gloss": "window",
+    "definition": "Window.",
+    "example": "Mach bitte das Fenster zu.",
+    "exampleTranslation": "Please close the window.",
+    "etymology": "Borrowed early from Latin fenestra, \"window\", when Roman building techniques, including glass windows, spread north.",
+    "fact": "German took the Latin word and English took the Norse one. English kept fenestra only in learned words like defenestrate.",
+    "related": [
+      { "id": "en-defenestrate", "term": "defenestrate", "lang": "en", "kind": "root" },
+      { "id": "en-window", "term": "window", "lang": "en", "kind": "related", "note": "English translation" },
+      { "term": "fenêtre", "lang": "fr", "kind": "cognate" }
+    ]
+  },
+  {
+    "id": "de-gift", "lang": "de", "term": "Gift", "ipa": "/ɡɪft/", "pos": "noun (n.)", "level": 1,
+    "gloss": "poison",
+    "definition": "Poison. (A present is ein Geschenk.)",
+    "example": "Diese Pilze sind reines Gift.",
+    "exampleTranslation": "These mushrooms are pure poison.",
+    "etymology": "From Old High German gift, \"something given\" — the same origin as English gift. German narrowed it to a \"dose\" given, and then to poison, much as Greek dósis (\"a giving\") became English dose.",
+    "fact": "The old meaning survives in Mitgift, \"dowry\" — literally what is given along with the bride.",
+    "related": [
+      { "term": "gift", "lang": "en", "kind": "false-friend" },
+      { "term": "Geschenk", "lang": "de", "kind": "related", "note": "an actual present" },
+      { "term": "Mitgift", "lang": "de", "kind": "root", "note": "dowry" }
+    ]
+  },
+  {
+    "id": "de-kummerspeck", "lang": "de", "term": "Kummerspeck", "ipa": "/ˈkʊ.mɐˌʃpɛk/", "pos": "noun (m.)", "level": 3,
+    "gloss": "weight gained from emotional eating",
+    "definition": "Excess weight put on through comfort eating in times of grief or worry.",
+    "example": "Nach der Trennung hat er sich etwas Kummerspeck angefuttert.",
+    "exampleTranslation": "After the break-up he put on a bit of comfort-eating weight.",
+    "etymology": "Kummer (\"grief, sorrow\") + Speck (\"bacon, fat\").",
+    "fact": "Literally \"grief bacon\" — a favourite on lists of untranslatable German words.",
+    "related": [
+      { "term": "Speck", "lang": "de", "kind": "root", "note": "bacon, fat" }
+    ]
+  },
+
+  {
+    "id": "it-disastro", "lang": "it", "term": "disastro", "ipa": "/diˈza.stro/", "pos": "noun (m.)", "level": 1,
+    "gloss": "disaster",
+    "definition": "Disaster, catastrophe; also, informally, a total mess (sei un disastro!).",
+    "example": "La cucina dopo la festa era un disastro.",
+    "exampleTranslation": "The kitchen after the party was a disaster.",
+    "etymology": "From dis- (expressing misfortune) + astro (\"star\"): an event caused by an unlucky star.",
+    "fact": "The word spread from Italian to French (désastre) and English in the 16th century, when astrology was taken seriously at European courts.",
+    "related": [
+      { "id": "en-disaster", "term": "disaster", "lang": "en", "kind": "borrowing" },
+      { "term": "astro", "lang": "it", "kind": "root", "note": "star" }
+    ]
+  },
+  {
+    "id": "it-quaranta", "lang": "it", "term": "quaranta", "ipa": "/kwaˈran.ta/", "pos": "numeral", "level": 1,
+    "gloss": "forty",
+    "definition": "Forty.",
+    "example": "Mio padre ha quarant'anni.",
+    "exampleTranslation": "My father is forty years old.",
+    "etymology": "From Latin quadraginta, \"forty\".",
+    "fact": "Venetian quaranta giorni, \"forty days\", gave English the word quarantine.",
+    "related": [
+      { "id": "en-quarantine", "term": "quarantine", "lang": "en", "kind": "root" },
+      { "id": "fr-quarantaine", "term": "quarantaine", "lang": "fr", "kind": "cognate" },
+      { "term": "cuarenta", "lang": "es", "kind": "cognate" }
+    ]
+  },
+  {
+    "id": "it-sprezzatura", "lang": "it", "term": "sprezzatura", "ipa": "/spret.tsaˈtu.ra/", "pos": "noun (f.)", "level": 3,
+    "gloss": "studied nonchalance",
+    "definition": "The art of making something difficult look effortless; graceful, practised nonchalance.",
+    "example": "Suona il piano con una sprezzatura invidiabile.",
+    "exampleTranslation": "He plays the piano with enviable effortlessness.",
+    "etymology": "From sprezzare, \"to scorn, disdain\" (from Latin ex- + pretium, \"price, value\"): an air of not caring.",
+    "fact": "Coined by Baldassare Castiglione in The Book of the Courtier (1528) as the essential quality of the ideal Renaissance courtier.",
+    "related": [
+      { "term": "disprezzo", "lang": "it", "kind": "root", "note": "contempt" },
+      { "term": "price", "lang": "en", "kind": "root", "note": "pretium" }
+    ]
+  },
+  {
+    "id": "it-bancarotta", "lang": "it", "term": "bancarotta", "ipa": "/ban.kaˈrot.ta/", "pos": "noun (f.)", "level": 2,
+    "gloss": "bankruptcy",
+    "definition": "Bankruptcy; fare bancarotta means to go bankrupt.",
+    "example": "L'azienda ha fatto bancarotta nel 2009.",
+    "exampleTranslation": "The company went bankrupt in 2009.",
+    "etymology": "From banca (\"bench, counter\") + rotta (\"broken\", from rompere).",
+    "fact": "Italian banca and banco are the source of English bank — Renaissance Italian bankers really did work at benches in the marketplace.",
+    "related": [
+      { "id": "en-bankrupt", "term": "bankrupt", "lang": "en", "kind": "borrowing" },
+      { "term": "banca", "lang": "it", "kind": "root", "note": "bank, bench" }
+    ]
+  },
+  {
+    "id": "it-ciao", "lang": "it", "term": "ciao", "ipa": "/ˈtʃa.o/", "pos": "interjection", "level": 1,
+    "gloss": "hi; bye",
+    "definition": "An informal greeting used both when meeting and when parting.",
+    "example": "Ciao, ci vediamo domani!",
+    "exampleTranslation": "Bye, see you tomorrow!",
+    "etymology": "From Venetian s-ciào, from the phrase s-ciào vostro, \"(I am) your slave\" — a polite formula of service, from Medieval Latin sclavus.",
+    "fact": "Austrian and Bavarian German have a greeting with exactly the same logic: Servus, from Latin servus, \"servant\".",
+    "related": [
+      { "term": "slave", "lang": "en", "kind": "root" },
+      { "term": "Servus", "lang": "de", "kind": "related", "note": "same idea" }
+    ]
+  },
+  {
+    "id": "it-compagno", "lang": "it", "term": "compagno", "ipa": "/komˈpaɲ.ɲo/", "pos": "noun (m.)", "level": 1,
+    "gloss": "companion; classmate; partner",
+    "definition": "Companion, mate or partner; compagno di classe is a classmate.",
+    "example": "È il mio compagno di banco da tre anni.",
+    "exampleTranslation": "He's been my deskmate for three years.",
+    "etymology": "From Vulgar Latin *companio, \"one who shares bread\" (com- + panis).",
+    "fact": "Italian pane (\"bread\") still sits inside compagnia, \"company\".",
+    "related": [
+      { "id": "en-companion", "term": "companion", "lang": "en", "kind": "cognate" },
+      { "id": "es-companero", "term": "compañero", "lang": "es", "kind": "cognate" },
+      { "term": "pane", "lang": "it", "kind": "root", "note": "bread" }
+    ]
+  },
+  {
+    "id": "it-pomodoro", "lang": "it", "term": "pomodoro", "ipa": "/po.moˈdɔ.ro/", "pos": "noun (m.)", "level": 1,
+    "gloss": "tomato",
+    "definition": "Tomato.",
+    "example": "Per la salsa servono pomodori maturi.",
+    "exampleTranslation": "You need ripe tomatoes for the sauce.",
+    "etymology": "From pomo d'oro, \"golden apple\". The herbalist Pietro Andrea Mattioli described the new American fruit as pomi d'oro in 1544, possibly because early varieties grown in Europe were yellow.",
+    "fact": "The Pomodoro productivity technique is named after a tomato-shaped kitchen timer.",
+    "related": [
+      { "term": "pomme", "lang": "fr", "kind": "root", "note": "apple" },
+      { "term": "tomate", "lang": "es", "kind": "related", "note": "from Nahuatl tomatl" }
+    ]
+  }
+]

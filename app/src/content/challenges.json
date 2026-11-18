@@ -1,0 +1,538 @@
+[
+  {
+    "id": "happy", "word": "happy", "pos": "adjective", "level": 1,
+    "definition": "Feeling or showing pleasure or contentment.",
+    "example": "She was happy to finally be home.",
+    "synonyms": [
+      { "word": "joyful", "definition": "Full of great happiness." },
+      { "word": "cheerful", "definition": "Noticeably happy and optimistic." },
+      { "word": "content", "definition": "Peacefully satisfied with what one has." },
+      { "word": "glad", "definition": "Pleased and delighted about something." }
+    ],
+    "antonyms": [
+      { "word": "sad", "definition": "Feeling or showing sorrow." },
+      { "word": "miserable", "definition": "Wretchedly unhappy or uncomfortable." },
+      { "word": "gloomy", "definition": "Depressed, without hope or cheer." },
+      { "word": "sorrowful", "definition": "Feeling or showing deep grief." }
+    ],
+    "distractors": [
+      { "word": "lucky", "definition": "Having good things happen by chance.", "note": "Luck often makes people happy, but lucky describes fortune, not feeling." },
+      { "word": "excited", "definition": "Very enthusiastic and eager; stirred up.", "note": "Excitement is high energy and can be nervous or anxious, not necessarily happy." },
+      { "word": "calm", "definition": "Not showing nervousness, anger or strong emotion.", "note": "You can be calm and unhappy; calm is about agitation, not pleasure." }
+    ]
+  },
+  {
+    "id": "brave", "word": "brave", "pos": "adjective", "level": 1,
+    "definition": "Ready to face and endure danger or pain; showing courage.",
+    "example": "The brave firefighter went back in for the dog.",
+    "synonyms": [
+      { "word": "courageous", "definition": "Not deterred by danger or pain." },
+      { "word": "bold", "definition": "Willing to take risks; confident and daring." },
+      { "word": "valiant", "definition": "Showing courage or determination, often heroically." },
+      { "word": "fearless", "definition": "Lacking fear." }
+    ],
+    "antonyms": [
+      { "word": "cowardly", "definition": "Lacking courage in facing danger." },
+      { "word": "timid", "definition": "Showing a lack of courage or confidence; easily frightened." },
+      { "word": "fearful", "definition": "Feeling afraid; showing fear or anxiety." }
+    ],
+    "distractors": [
+      { "word": "reckless", "definition": "Heedless of danger or the consequences of one's actions.", "note": "Reckless ignores danger; brave faces danger knowingly. Bravery is a virtue, recklessness isn't." },
+      { "word": "strong", "definition": "Having physical power or great force.", "note": "Strength is power; bravery is willingness to face fear." },
+      { "word": "proud", "definition": "Feeling satisfaction in one's achievements, or having too high an opinion of oneself.", "note": "Pride is about self-regard, not courage." }
+    ]
+  },
+  {
+    "id": "enormous", "word": "enormous", "pos": "adjective", "level": 1,
+    "definition": "Very large in size, quantity or extent.",
+    "example": "An enormous wave crashed over the pier.",
+    "synonyms": [
+      { "word": "huge", "definition": "Extremely large." },
+      { "word": "immense", "definition": "Extremely large or great, especially in scale." },
+      { "word": "vast", "definition": "Of very great extent, especially in area." },
+      { "word": "colossal", "definition": "Extremely large, like a colossus (a giant statue)." }
+    ],
+    "antonyms": [
+      { "word": "tiny", "definition": "Very small." },
+      { "word": "minuscule", "definition": "Extremely small." },
+      { "word": "minute", "definition": "(my-NOOT) Extremely small." }
+    ],
+    "distractors": [
+      { "word": "heavy", "definition": "Of great weight.", "note": "Something can be small and heavy (a gold bar) or huge and light (a balloon)." },
+      { "word": "numerous", "definition": "Great in number; many.", "note": "Numerous counts things; enormous measures size." },
+      { "word": "tall", "definition": "Of great height.", "note": "Tall is only about height; enormous covers overall size." }
+    ]
+  },
+  {
+    "id": "abundant", "word": "abundant", "pos": "adjective", "level": 2,
+    "definition": "Existing or available in large quantities; more than enough.",
+    "example": "Fresh water is abundant in the region.",
+    "synonyms": [
+      { "word": "plentiful", "definition": "Existing in great quantities." },
+      { "word": "ample", "definition": "Enough or more than enough." },
+      { "word": "copious", "definition": "Abundant in supply or quantity." },
+      { "word": "profuse", "definition": "Exuberantly plentiful; abundant (often of flow)." }
+    ],
+    "antonyms": [
+      { "word": "scarce", "definition": "Insufficient for the demand; in short supply." },
+      { "word": "sparse", "definition": "Thinly scattered or distributed." },
+      { "word": "meager", "definition": "Lacking in quantity or quality; barely enough." }
+    ],
+    "distractors": [
+      { "word": "expensive", "definition": "Costing a lot of money.", "note": "Price isn't quantity — in fact, abundant things are usually cheap." },
+      { "word": "frequent", "definition": "Happening often.", "note": "Frequent is about how often something occurs, not how much of it exists." },
+      { "word": "fertile", "definition": "Able to produce abundant crops or offspring.", "note": "Fertile land produces abundance; it isn't the abundance itself." }
+    ]
+  },
+  {
+    "id": "honest", "word": "honest", "pos": "adjective", "level": 1,
+    "definition": "Free of deceit; truthful and sincere.",
+    "example": "Give me your honest opinion.",
+    "synonyms": [
+      { "word": "truthful", "definition": "Telling or expressing the truth." },
+      { "word": "sincere", "definition": "Free from pretence; genuine." },
+      { "word": "candid", "definition": "Truthful and straightforward, even when it's uncomfortable." },
+      { "word": "frank", "definition": "Open, honest and direct in speech." }
+    ],
+    "antonyms": [
+      { "word": "deceitful", "definition": "Guilty of or involving deception." },
+      { "word": "dishonest", "definition": "Behaving or prone to behave untruthfully." },
+      { "word": "devious", "definition": "Using underhanded tactics to achieve goals." }
+    ],
+    "distractors": [
+      { "word": "polite", "definition": "Having good manners; respectful.", "note": "Politeness sometimes means softening the truth — the opposite of being candid." },
+      { "word": "modest", "definition": "Unassuming about one's abilities or achievements.", "note": "Modesty is about not boasting, not about telling the truth." },
+      { "word": "loyal", "definition": "Giving firm and constant support to a person or cause.", "note": "Loyalty is faithfulness; a loyal friend might still lie for you." }
+    ]
+  },
+  {
+    "id": "diligent", "word": "diligent", "pos": "adjective", "level": 2,
+    "definition": "Having or showing care and steady effort in one's work or duties.",
+    "example": "A diligent student reviews her notes every evening.",
+    "synonyms": [
+      { "word": "hardworking", "definition": "Tending to work with energy and commitment." },
+      { "word": "industrious", "definition": "Constantly and energetically busy at work." },
+      { "word": "assiduous", "definition": "Showing great care, attention and persistence." },
+      { "word": "conscientious", "definition": "Wishing to do one's work or duty well and thoroughly." }
+    ],
+    "antonyms": [
+      { "word": "lazy", "definition": "Unwilling to work or use energy." },
+      { "word": "idle", "definition": "Avoiding work; not active." },
+      { "word": "negligent", "definition": "Failing to take proper care in doing something." }
+    ],
+    "distractors": [
+      { "word": "intelligent", "definition": "Having a high capacity for thinking and learning.", "note": "Ability isn't effort — a brilliant person can be lazy." },
+      { "word": "punctual", "definition": "Happening or doing something at the agreed time.", "note": "Being on time is one habit; diligence is sustained careful effort." },
+      { "word": "ambitious", "definition": "Having a strong desire for success.", "note": "Ambition is wanting; diligence is doing the steady work." }
+    ]
+  },
+  {
+    "id": "ancient", "word": "ancient", "pos": "adjective", "level": 1,
+    "definition": "Belonging to the very distant past; very old.",
+    "example": "They walked among the ruins of an ancient city.",
+    "synonyms": [
+      { "word": "old", "definition": "Having lived or existed for a long time." },
+      { "word": "archaic", "definition": "Very old or old-fashioned; belonging to an earlier period." },
+      { "word": "antique", "definition": "Old and valuable because of age (of objects)." },
+      { "word": "age-old", "definition": "Having existed for a very long time." }
+    ],
+    "antonyms": [
+      { "word": "modern", "definition": "Relating to the present or recent times." },
+      { "word": "new", "definition": "Not existing before; recently made or discovered." },
+      { "word": "contemporary", "definition": "Belonging to or occurring in the present." }
+    ],
+    "distractors": [
+      { "word": "valuable", "definition": "Worth a great deal of money or highly useful.", "note": "Many ancient things are valuable, but value and age are different properties." },
+      { "word": "famous", "definition": "Known about by many people.", "note": "Fame has nothing to do with age." },
+      { "word": "fragile", "definition": "Easily broken or damaged.", "note": "Old objects are often fragile, but fragile describes strength, not age." }
+    ]
+  },
+  {
+    "id": "generous", "word": "generous", "pos": "adjective", "level": 1,
+    "definition": "Showing readiness to give more of something, like money or time, than expected.",
+    "example": "It was generous of you to drive us all the way.",
+    "synonyms": [
+      { "word": "charitable", "definition": "Giving freely to those in need; kind in judging others." },
+      { "word": "magnanimous", "definition": "Very generous or forgiving, especially toward a rival." },
+      { "word": "bountiful", "definition": "Giving generously; also, large in quantity." },
+      { "word": "munificent", "definition": "Larger or more generous than is usual." }
+    ],
+    "antonyms": [
+      { "word": "stingy", "definition": "Unwilling to give or spend; ungenerous." },
+      { "word": "miserly", "definition": "Hoarding wealth and spending as little as possible." },
+      { "word": "parsimonious", "definition": "Extremely unwilling to spend money." }
+    ],
+    "distractors": [
+      { "word": "wealthy", "definition": "Having a great deal of money.", "note": "Having money is not the same as giving it." },
+      { "word": "friendly", "definition": "Kind and pleasant.", "note": "Friendliness is warmth; generosity is giving." },
+      { "word": "grateful", "definition": "Feeling thankful.", "note": "Gratitude is how you feel about receiving, not giving." }
+    ]
+  },
+  {
+    "id": "calm", "word": "calm", "pos": "adjective", "level": 1,
+    "definition": "Not showing or feeling nervousness, anger or other strong emotion; still.",
+    "example": "She stayed calm when the alarm went off.",
+    "synonyms": [
+      { "word": "tranquil", "definition": "Free from disturbance; peaceful." },
+      { "word": "serene", "definition": "Calm, peaceful and untroubled." },
+      { "word": "placid", "definition": "Not easily upset or excited; calm." },
+      { "word": "peaceful", "definition": "Free from disturbance; quiet and calm." }
+    ],
+    "antonyms": [
+      { "word": "agitated", "definition": "Feeling or appearing troubled or nervous." },
+      { "word": "anxious", "definition": "Experiencing worry or unease." },
+      { "word": "turbulent", "definition": "Characterized by conflict, disorder or confusion; not still." }
+    ],
+    "distractors": [
+      { "word": "sleepy", "definition": "Needing or ready for sleep.", "note": "Tired isn't the same as untroubled — you can be sleepy and anxious." },
+      { "word": "cold", "definition": "Of low temperature; or lacking warmth of feeling.", "note": "A cold person is unfriendly, not necessarily calm." },
+      { "word": "patient", "definition": "Able to wait or tolerate delays without getting upset.", "note": "Close, but patience is about tolerating delay or difficulty; calm is a general state." }
+    ]
+  },
+  {
+    "id": "difficult", "word": "difficult", "pos": "adjective", "level": 1,
+    "definition": "Needing much effort or skill to accomplish, deal with or understand.",
+    "example": "The final exam was difficult but fair.",
+    "synonyms": [
+      { "word": "hard", "definition": "Requiring a great deal of effort." },
+      { "word": "arduous", "definition": "Involving strenuous effort; tiring." },
+      { "word": "challenging", "definition": "Testing one's abilities; demanding." },
+      { "word": "demanding", "definition": "Requiring much skill or effort." }
+    ],
+    "antonyms": [
+      { "word": "easy", "definition": "Achieved without great effort." },
+      { "word": "simple", "definition": "Easily understood or done." },
+      { "word": "effortless", "definition": "Requiring no physical or mental exertion." }
+    ],
+    "distractors": [
+      { "word": "dangerous", "definition": "Able or likely to cause harm.", "note": "A task can be easy but dangerous, or hard but safe." },
+      { "word": "lengthy", "definition": "Of considerable or unusual length.", "note": "Long isn't necessarily hard." },
+      { "word": "painful", "definition": "Causing physical or emotional pain.", "note": "Pain and difficulty often travel together, but they aren't the same." }
+    ]
+  },
+  {
+    "id": "obscure", "word": "obscure", "pos": "adjective", "level": 3,
+    "definition": "Not discovered or known about; little known. (Here: the \"not famous\" sense.)",
+    "example": "The song was written by an obscure poet from Galway.",
+    "synonyms": [
+      { "word": "unknown", "definition": "Not known or familiar." },
+      { "word": "little-known", "definition": "Not widely known." },
+      { "word": "unsung", "definition": "Not celebrated or praised as it deserves." },
+      { "word": "unheralded", "definition": "Not previously announced, expected or praised." }
+    ],
+    "antonyms": [
+      { "word": "famous", "definition": "Known about by many people." },
+      { "word": "renowned", "definition": "Known and admired by many." },
+      { "word": "celebrated", "definition": "Greatly admired; famous." },
+      { "word": "prominent", "definition": "Important; famous; standing out." }
+    ],
+    "distractors": [
+      { "word": "ordinary", "definition": "With no special or distinctive features.", "note": "Something can be remarkable but obscure — just undiscovered." },
+      { "word": "ancient", "definition": "Belonging to the very distant past.", "note": "Many ancient things are very famous (the pyramids)." },
+      { "word": "secret", "definition": "Kept from being known by others on purpose.", "note": "Secret is deliberately hidden; obscure simply isn't widely known." }
+    ]
+  },
+  {
+    "id": "eager", "word": "eager", "pos": "adjective", "level": 1,
+    "definition": "Strongly wanting to do or have something.",
+    "example": "The puppy was eager to go outside.",
+    "synonyms": [
+      { "word": "keen", "definition": "Having or showing eagerness or enthusiasm." },
+      { "word": "enthusiastic", "definition": "Having intense and eager enjoyment or interest." },
+      { "word": "avid", "definition": "Having a keen interest in or enthusiasm for something." },
+      { "word": "zealous", "definition": "Having great energy or enthusiasm for a cause or objective." }
+    ],
+    "antonyms": [
+      { "word": "reluctant", "definition": "Unwilling and hesitant." },
+      { "word": "unwilling", "definition": "Not ready, eager or prepared to do something." },
+      { "word": "apathetic", "definition": "Showing no interest, enthusiasm or concern." },
+      { "word": "indifferent", "definition": "Having no particular interest or sympathy." }
+    ],
+    "distractors": [
+      { "word": "impatient", "definition": "Restless and unable to wait calmly.", "note": "Eagerness can cause impatience, but impatience is about waiting, and can come with irritation." },
+      { "word": "hungry", "definition": "Feeling a need for food.", "note": "Used figuratively (\"hungry for success\") it's close — but literally it's about food." },
+      { "word": "nervous", "definition": "Easily agitated or alarmed; anxious.", "note": "Nerves are anxiety, not desire." }
+    ]
+  },
+  {
+    "id": "fragile", "word": "fragile", "pos": "adjective", "level": 1,
+    "definition": "Easily broken or damaged; delicate.",
+    "example": "Pack the fragile glasses in newspaper.",
+    "synonyms": [
+      { "word": "delicate", "definition": "Easily broken or damaged; fine in texture." },
+      { "word": "brittle", "definition": "Hard but liable to break or shatter easily." },
+      { "word": "breakable", "definition": "Capable of being broken." },
+      { "word": "frail", "definition": "Weak and delicate, especially of a person." }
+    ],
+    "antonyms": [
+      { "word": "sturdy", "definition": "Strongly and solidly built." },
+      { "word": "robust", "definition": "Strong and healthy; not easily broken." },
+      { "word": "durable", "definition": "Able to withstand wear, pressure or damage." }
+    ],
+    "distractors": [
+      { "word": "light", "definition": "Of little weight.", "note": "Light things can be tough (a feather, plastic); weight and strength differ." },
+      { "word": "transparent", "definition": "Allowing light to pass through so you can see behind.", "note": "Glass is both, but bulletproof glass is transparent and far from fragile." },
+      { "word": "expensive", "definition": "Costing a lot of money.", "note": "Price doesn't tell you how breakable something is." }
+    ]
+  },
+  {
+    "id": "praise", "word": "praise", "pos": "verb", "level": 2,
+    "definition": "To express warm approval or admiration of someone or something.",
+    "example": "Critics praised the film's performances.",
+    "synonyms": [
+      { "word": "commend", "definition": "To praise formally or officially." },
+      { "word": "applaud", "definition": "To show strong approval of; literally, to clap." },
+      { "word": "laud", "definition": "To praise highly, especially in public." },
+      { "word": "acclaim", "definition": "To praise enthusiastically and publicly." }
+    ],
+    "antonyms": [
+      { "word": "criticize", "definition": "To indicate the faults of someone or something disapprovingly." },
+      { "word": "condemn", "definition": "To express complete disapproval of." },
+      { "word": "censure", "definition": "To express severe, often formal, disapproval." },
+      { "word": "disparage", "definition": "To represent as being of little worth; belittle." }
+    ],
+    "distractors": [
+      { "word": "thank", "definition": "To express gratitude to someone.", "note": "Thanks acknowledges a favour; praise judges something as good." },
+      { "word": "encourage", "definition": "To give support, confidence or hope.", "note": "Encouragement looks forward (\"you can do it\"); praise looks at what was done." },
+      { "word": "flatter", "definition": "To praise excessively or insincerely.", "note": "The trap! Flattery is praise that isn't sincere, often to gain favour — not a neutral synonym." }
+    ]
+  },
+  {
+    "id": "begin", "word": "begin", "pos": "verb", "level": 1,
+    "definition": "To start; to perform the first part of an action.",
+    "example": "The concert will begin at eight.",
+    "synonyms": [
+      { "word": "start", "definition": "To begin doing or happening." },
+      { "word": "commence", "definition": "To begin (formal)." },
+      { "word": "initiate", "definition": "To cause a process or action to begin." },
+      { "word": "launch", "definition": "To start or set in motion an activity or enterprise." }
+    ],
+    "antonyms": [
+      { "word": "end", "definition": "To come or bring to a final point." },
+      { "word": "finish", "definition": "To bring a task or activity to an end." },
+      { "word": "conclude", "definition": "To bring something to an end (formal)." },
+      { "word": "cease", "definition": "To come to an end; stop." }
+    ],
+    "distractors": [
+      { "word": "prepare", "definition": "To make ready for use or an event.", "note": "Preparing happens before beginning." },
+      { "word": "continue", "definition": "To keep going without stopping.", "note": "Continuing is the middle — after beginning, before ending." },
+      { "word": "attempt", "definition": "To make an effort to do something.", "note": "You can begin without trying hard, and try without beginning anything new." }
+    ]
+  },
+  {
+    "id": "increase", "word": "increase", "pos": "verb", "level": 1,
+    "definition": "To become or make greater in size, amount, intensity or degree.",
+    "example": "Ticket prices will increase next year.",
+    "synonyms": [
+      { "word": "grow", "definition": "To become larger or greater over time." },
+      { "word": "expand", "definition": "To become or make larger or more extensive." },
+      { "word": "augment", "definition": "To make something greater by adding to it." },
+      { "word": "escalate", "definition": "To increase rapidly in intensity or seriousness." }
+    ],
+    "antonyms": [
+      { "word": "decrease", "definition": "To make or become smaller or fewer." },
+      { "word": "reduce", "definition": "To make smaller or less in amount or size." },
+      { "word": "diminish", "definition": "To make or become less." },
+      { "word": "shrink", "definition": "To become or make smaller in size or amount." }
+    ],
+    "distractors": [
+      { "word": "improve", "definition": "To make or become better.", "note": "More isn't always better — increasing pollution doesn't improve anything." },
+      { "word": "repeat", "definition": "To say or do again.", "note": "Doing something again doesn't make it larger." },
+      { "word": "accelerate", "definition": "To begin to move or happen more quickly.", "note": "Close, but it's specifically an increase in speed, not in size or amount." }
+    ]
+  },
+  {
+    "id": "wise", "word": "wise", "pos": "adjective", "level": 2,
+    "definition": "Having or showing experience, knowledge and good judgement.",
+    "example": "It was a wise decision to leave early.",
+    "synonyms": [
+      { "word": "sagacious", "definition": "Having keen mental discernment and good judgement." },
+      { "word": "judicious", "definition": "Having, showing or done with good judgement." },
+      { "word": "prudent", "definition": "Acting with care and thought for the future." },
+      { "word": "astute", "definition": "Able to accurately assess situations and turn them to one's advantage." }
+    ],
+    "antonyms": [
+      { "word": "foolish", "definition": "Lacking good sense or judgement." },
+      { "word": "unwise", "definition": "Not sensible; foolish." },
+      { "word": "imprudent", "definition": "Not showing care for the consequences of an action." },
+      { "word": "rash", "definition": "Acting without careful consideration of the consequences." }
+    ],
+    "distractors": [
+      { "word": "educated", "definition": "Having received a good education.", "note": "Knowledge isn't judgement: plenty of educated people make unwise choices." },
+      { "word": "old", "definition": "Having lived for a long time.", "note": "Age can bring wisdom, but they're different things." },
+      { "word": "serious", "definition": "Solemn or thoughtful in character.", "note": "Looking thoughtful isn't the same as judging well." }
+    ]
+  },
+  {
+    "id": "hostile", "word": "hostile", "pos": "adjective", "level": 2,
+    "definition": "Unfriendly; antagonistic; showing or feeling opposition.",
+    "example": "The crowd grew hostile when the match was delayed.",
+    "synonyms": [
+      { "word": "antagonistic", "definition": "Showing active opposition or hostility." },
+      { "word": "unfriendly", "definition": "Not friendly or kind." },
+      { "word": "belligerent", "definition": "Hostile and aggressive; eager to fight." },
+      { "word": "adversarial", "definition": "Involving or characterized by conflict or opposition." }
+    ],
+    "antonyms": [
+      { "word": "friendly", "definition": "Kind and pleasant." },
+      { "word": "amicable", "definition": "Characterized by friendliness and absence of discord." },
+      { "word": "cordial", "definition": "Warm and friendly." },
+      { "word": "welcoming", "definition": "Behaving in a polite or friendly way to a guest or newcomer." }
+    ],
+    "distractors": [
+      { "word": "foreign", "definition": "From or relating to another country.", "note": "Unfamiliar isn't the same as unfriendly." },
+      { "word": "strict", "definition": "Demanding that rules be obeyed.", "note": "A strict teacher can still be warm and on your side." },
+      { "word": "loud", "definition": "Producing much noise.", "note": "Volume isn't attitude: a cheering crowd is loud and friendly." }
+    ]
+  },
+  {
+    "id": "brief", "word": "brief", "pos": "adjective", "level": 1,
+    "definition": "Of short duration, or using few words.",
+    "example": "After a brief pause, she continued speaking.",
+    "synonyms": [
+      { "word": "short", "definition": "Lasting a small amount of time." },
+      { "word": "concise", "definition": "Giving a lot of information clearly in few words." },
+      { "word": "succinct", "definition": "Briefly and clearly expressed." },
+      { "word": "fleeting", "definition": "Lasting for a very short time." }
+    ],
+    "antonyms": [
+      { "word": "long", "definition": "Lasting or taking a great amount of time." },
+      { "word": "lengthy", "definition": "Of considerable or unusual length, sometimes tediously so." },
+      { "word": "prolonged", "definition": "Continuing for a long time or longer than usual." },
+      { "word": "protracted", "definition": "Lasting longer than expected or than usual." }
+    ],
+    "distractors": [
+      { "word": "simple", "definition": "Easily understood or done.", "note": "A short message can still be complicated." },
+      { "word": "sudden", "definition": "Occurring quickly and unexpectedly.", "note": "Sudden is about how it starts; brief is about how long it lasts." },
+      { "word": "small", "definition": "Of a size less than normal.", "note": "Small measures size; brief measures time or length of speech." }
+    ]
+  },
+  {
+    "id": "ordinary", "word": "ordinary", "pos": "adjective", "level": 1,
+    "definition": "With no special or distinctive features; normal.",
+    "example": "It started as an ordinary Tuesday morning.",
+    "synonyms": [
+      { "word": "common", "definition": "Occurring, found or done often; not unusual." },
+      { "word": "usual", "definition": "Habitually or typically occurring or done." },
+      { "word": "typical", "definition": "Having the distinctive qualities of a particular type." },
+      { "word": "everyday", "definition": "Happening or used every day; commonplace." }
+    ],
+    "antonyms": [
+      { "word": "extraordinary", "definition": "Very unusual or remarkable." },
+      { "word": "remarkable", "definition": "Worthy of attention; striking." },
+      { "word": "exceptional", "definition": "Unusual; not typical, often unusually good." },
+      { "word": "unusual", "definition": "Not habitually or commonly occurring or done." }
+    ],
+    "distractors": [
+      { "word": "boring", "definition": "Not interesting; tedious.", "note": "Ordinary things can be delightful. Boring is a judgement; ordinary is a description." },
+      { "word": "cheap", "definition": "Low in price.", "note": "Price isn't the point — an ordinary car can be expensive." },
+      { "word": "popular", "definition": "Liked or admired by many people.", "note": "Being liked isn't the same as being common." }
+    ]
+  },
+  {
+    "id": "reveal", "word": "reveal", "pos": "verb", "level": 2,
+    "definition": "To make something previously unknown or hidden known or seen.",
+    "example": "The magician finally revealed how the trick worked.",
+    "synonyms": [
+      { "word": "disclose", "definition": "To make information known, especially something secret." },
+      { "word": "divulge", "definition": "To make known private or sensitive information." },
+      { "word": "expose", "definition": "To make visible by uncovering; to reveal something wrong." },
+      { "word": "unveil", "definition": "To remove a covering from; to show publicly for the first time." }
+    ],
+    "antonyms": [
+      { "word": "conceal", "definition": "To keep from sight; hide." },
+      { "word": "hide", "definition": "To put or keep out of sight." },
+      { "word": "withhold", "definition": "To refuse to give something that is due or wanted." }
+    ],
+    "distractors": [
+      { "word": "discover", "definition": "To find something unexpectedly or during a search.", "note": "Discovering is finding out yourself; revealing is showing it to others." },
+      { "word": "explain", "definition": "To make an idea clear by describing it in detail.", "note": "You can explain something everyone already knows. Revealing requires it to have been hidden." },
+      { "word": "describe", "definition": "To give an account in words of someone or something.", "note": "Describing gives detail; it doesn't imply anything was hidden." }
+    ]
+  },
+  {
+    "id": "frugal", "word": "frugal", "pos": "adjective", "level": 2,
+    "definition": "Sparing or economical with money or food; avoiding waste.",
+    "example": "A frugal lifestyle helped them save for a house.",
+    "synonyms": [
+      { "word": "thrifty", "definition": "Using money and resources carefully and not wastefully." },
+      { "word": "economical", "definition": "Giving good value for the money or effort; careful not to waste." },
+      { "word": "sparing", "definition": "Moderate; economical; using little." }
+    ],
+    "antonyms": [
+      { "word": "extravagant", "definition": "Lacking restraint in spending money or using resources." },
+      { "word": "wasteful", "definition": "Using or expending something carelessly or needlessly." },
+      { "word": "lavish", "definition": "Sumptuously rich or elaborate; spending freely." },
+      { "word": "profligate", "definition": "Recklessly extravagant or wasteful." }
+    ],
+    "distractors": [
+      { "word": "poor", "definition": "Lacking enough money to live comfortably.", "note": "Frugality is a choice; a wealthy person can be frugal and a poor one wasteful." },
+      { "word": "greedy", "definition": "Having an excessive desire for more, especially money.", "note": "Greed is wanting more; frugality is using less." },
+      { "word": "stingy", "definition": "Unwilling to give or spend; ungenerous.", "note": "The trap! Stingy is negative — refusing to share. Frugal is a positive habit of not wasting." }
+    ]
+  },
+  {
+    "id": "optimistic", "word": "optimistic", "pos": "adjective", "level": 2,
+    "definition": "Hopeful and confident about the future.",
+    "example": "Doctors are optimistic about her recovery.",
+    "synonyms": [
+      { "word": "hopeful", "definition": "Feeling or inspiring hope." },
+      { "word": "positive", "definition": "Constructive and confident; focusing on the good." },
+      { "word": "sanguine", "definition": "Cheerfully optimistic, especially in a bad situation." },
+      { "word": "upbeat", "definition": "Cheerful and optimistic (informal)." }
+    ],
+    "antonyms": [
+      { "word": "pessimistic", "definition": "Tending to see the worst aspect of things." },
+      { "word": "despairing", "definition": "Showing the loss of all hope." },
+      { "word": "defeatist", "definition": "Expecting or accepting failure too readily." }
+    ],
+    "distractors": [
+      { "word": "realistic", "definition": "Having a sensible, practical idea of what can be achieved.", "note": "Realism can be optimistic or pessimistic depending on the facts." },
+      { "word": "happy", "definition": "Feeling or showing pleasure.", "note": "Happiness is about now; optimism is about the future." },
+      { "word": "confident", "definition": "Feeling sure about oneself or one's abilities.", "note": "Close, but confidence is about yourself; optimism is about how things will turn out." }
+    ]
+  },
+  {
+    "id": "vivid", "word": "vivid", "pos": "adjective", "level": 2,
+    "definition": "Producing strong, clear images in the mind; of colour, intensely bright.",
+    "example": "I have a vivid memory of my first day at school.",
+    "synonyms": [
+      { "word": "vibrant", "definition": "Full of energy and life; bright and striking." },
+      { "word": "brilliant", "definition": "Very bright or radiant." },
+      { "word": "striking", "definition": "Attracting attention by being unusual or prominent." },
+      { "word": "graphic", "definition": "Clear and detailed, often uncomfortably so." }
+    ],
+    "antonyms": [
+      { "word": "dull", "definition": "Lacking brightness, interest or excitement." },
+      { "word": "drab", "definition": "Lacking brightness or interest; dreary." },
+      { "word": "faded", "definition": "Having lost colour or brightness; dimmed." },
+      { "word": "hazy", "definition": "Vague, indistinct or ill-defined." }
+    ],
+    "distractors": [
+      { "word": "loud", "definition": "Producing much noise.", "note": "\"Loud colours\" is a figure of speech; loud is mostly about sound." },
+      { "word": "accurate", "definition": "Correct in all details; exact.", "note": "A vivid memory can be completely wrong — vividness isn't accuracy." },
+      { "word": "recent", "definition": "Having happened not long ago.", "note": "Old memories can be vivid and yesterday's can be hazy." }
+    ]
+  },
+  {
+    "id": "ambiguous", "word": "ambiguous", "pos": "adjective", "level": 3,
+    "definition": "Open to more than one interpretation; not having one obvious meaning.",
+    "example": "The contract's wording was ambiguous, so both sides claimed victory.",
+    "synonyms": [
+      { "word": "equivocal", "definition": "Open to more than one interpretation, often deliberately." },
+      { "word": "unclear", "definition": "Not easy to see, hear or understand." },
+      { "word": "vague", "definition": "Of uncertain, indefinite or unclear meaning." }
+    ],
+    "antonyms": [
+      { "word": "unambiguous", "definition": "Not open to more than one interpretation." },
+      { "word": "explicit", "definition": "Stated clearly and in detail, leaving no room for confusion." },
+      { "word": "definite", "definition": "Clearly defined; precise." },
+      { "word": "clear", "definition": "Easy to perceive, understand or interpret." }
+    ],
+    "distractors": [
+      { "word": "complicated", "definition": "Consisting of many interconnecting parts; intricate.", "note": "A complicated statement can have exactly one meaning." },
+      { "word": "false", "definition": "Not according with truth or fact.", "note": "Ambiguity is about meaning, not truth: a lie can be perfectly clear." },
+      { "word": "ambivalent", "definition": "Having mixed feelings about something.", "note": "The classic mix-up: ambivalent describes a person's feelings; ambiguous describes a message's meaning." }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "// note": "Recommended extensions for this project. VS Code will prompt to install these.",
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "charliermarsh.ruff",
+    "expo.vscode-expo-tools",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "qwtel.sqlite-viewer",
+    "dsznajder.es7-react-js-snippets"
+  ]
+}
